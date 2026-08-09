@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="sitewide.css" rel="stylesheet">
+    <link href="color-and-type.css" rel="stylesheet">
     <title>Color Theory Overview</title>
 </head>
 <body>
@@ -12,21 +14,22 @@
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="resume.html">Resume</a></li>
-            <li><a href="projects.html">Projects</a>
+            <li class="categories"><a href="projects.html">Projects</a>
                 <ul>
                     <li><a href="animation.html">Animated Projects</a></li>
                     <li><a href="digitalart.html">Digital Art Portfolio</a></li>
                     <li><a href="brandingdesign.html">Branding Packages and Logos</a></li>
                     <li><a href="banner.html">Interactive Banner</a></li>
+                    <li><a href="drafting.html">Mechanical Design Projects</a></li>
                 </ul>
-            <li><a href="colortheoryoverview.html">Color Theory Overview</a></li>
+            <li class="categories"><a href="colortheoryoverview.html">Color Theory Overview</a>
                 <ul>
                     <li><a href="colortheoryarticle.html">Color Theory Article</a></li>
                     <li><a href="colorthemes.html">Color Themes</a></li>
                 </ul>
-            <li><a href="typographyoverview.html">Typography Overview</a></li>
+            <li class="categories"><a href="typographyoverview.html">Typography Overview</a>
                 <ul>
-                    <li><a href="fonttypessarticle.html">Font Types Article</a></li>
+                    <li><a href="fonttypesarticle.html">Font Types Article</a></li>
                     <li><a href="typographyarticle.html">Typography Article</a></li>
                 </ul>
         </ul>
@@ -36,28 +39,30 @@
 <main>
     <section id="color-theory-overview">
         <h2>Color Theory Overview</h2>
-        <p>Color is more than purely a decorative element whether it pertains to design work or art. When used
-            properly, color can hold sway over emotions and the overall feel of a painting, product, etc. Overall,
-            color theory helps artists and designers piece together how colors work together and achieve a desired
-            effect or feel. It breaks down how colors work in harmony and helps decide on the best color palette to
-            utilize. Furthermore, the same color can be interpreted differently depending not only on the culture of
-            the observer, but also on the surrounding colors adjacent to it. In product design, a good grasp on color
-            theory can help in three main ways: create am impactful design for best visual appeal, improve UX, and
-            lastly better communicate a brand's mood and message.</p>
-        <p>There are three main types of color in a color wheel: <strong>Primary Colors</strong> (red, blue, yellow),
+        <div class="overview">
+         <p>Color is more than purely a decorative element whether it pertains to design work or art. When used
+             properly, color can hold sway over emotions and the overall feel of a painting, product, etc. Overall,
+             color theory helps artists and designers piece together how colors work together and achieve a desired
+             effect or feel. It breaks down how colors work in harmony and helps decide on the best color palette to
+             utilize. Furthermore, the same color can be interpreted differently depending not only on the culture of
+             the observer, but also on the surrounding colors adjacent to it. In product design, a good grasp on color
+             theory can help in three main ways: create am impactful design for best visual appeal, improve UX, and
+             lastly better communicate a brand's mood and message.</p>
+         <p>There are three main types of color in a color wheel: <strong>Primary Colors</strong> (red, blue, yellow),
              <strong>Secondary Colors</strong> (such as green, orange, purple), and <strong>Tertiary Colors</strong>
-              (combinations of primary and secondary colors). Interestingly, the first color wheel, invented in the
-              early 1600s by a Finnish atronomer named Aron Sigfrid Forsius, only included red, yellow, blue, and gray
-              pigments. The color wheel we know and use today was inspired by Sir Isaac Newton's experimentations
-              with light and prisms in the 1700s. His experients would become the foundation of the modern day
-              color wheel. </p>
-        <p>Using color theory effectively also involves more than understanding the color wheel alone. Color theory
-            also involves a knowledge of color temperature (the warmth or coolness of a color), the seven harmonious color schemes,
-            and how to adjust the three key color elements: <strong>Hue</strong> (color), <strong>Saturation</strong> (color intensity), 
-            and <strong>Value</strong> (lightness or darkness of a color). Whether you are working on a new masterpiece,
-            a product, or a brand, color theory is an essential tool to elevate the overall appearance of your work
-            and how it makes observers feel towards your creation. A good grasp on this concept can enhance even a
-            basic design into something eye-catching and inspiring.</p>
+             (combinations of primary and secondary colors). Interestingly, the first color wheel, invented in the
+             early 1600s by a Finnish atronomer named Aron Sigfrid Forsius, only included red, yellow, blue, and gray
+             pigments. The color wheel we know and use today was inspired by Sir Isaac Newton's experimentations
+             with light and prisms in the 1700s. His experients would become the foundation of the modern day
+             color wheel. </p>
+         <p>Using color theory effectively also involves more than understanding the color wheel alone. Color theory
+             also involves a knowledge of color temperature (the warmth or coolness of a color), the seven harmonious color schemes,
+             and how to adjust the three key color elements: <strong>Hue</strong> (color), <strong>Saturation</strong> (color intensity), 
+             and <strong>Value</strong> (lightness or darkness of a color). Whether you are working on a new masterpiece,
+             a product, or a brand, color theory is an essential tool to elevate the overall appearance of your work
+             and how it makes observers feel towards your creation. A good grasp on this concept can enhance even a
+             basic design into something eye-catching and inspiring.</p>
+        </div>
     </section>
     <hr>
     <section id="color-theory-definitions">
@@ -69,14 +74,14 @@
                 aids in deciding harmonious color combinations by illustrating the
                 relationships between colors in an easy to comprehend wheel form.</dd>
             <dt><dfn>RGB</dfn></dt>
-            <dd>Stands for <strong>Red</strong>, <strong>Green</strong>, and <strong>Blue</strong>,
+            <dd>Stands for <strong class="red">Red</strong>, <strong class="green">Green</strong>, and <strong class="blue">Blue</strong>,
                 the three primary colors of light utilized in digital displays such as screens,
                 monitors, and televisions. RGB is an additive color model best suited for digital
                 media.</dd>
             <dt><dfn>CMYK</dfn></dt>
-            <dd>Stands for <strong> Cyan</strong>, <strong>Magenta</strong>, and <strong>Black</strong>(Key) and
-            best suited for print such business cards. CMYK is a subtracive color model and uses colors that absorb
-            light by layering inks.</dd>
+            <dd>Stands for <strong class="cyan"> Cyan</strong>, <strong class="magenta">Magenta</strong>, 
+             and <strong>Black</strong>(Key) and best suited for print such business cards. CMYK is a subtracive 
+             color model and uses colors that absorb light by layering inks.</dd>
             <dt><dfn>Primary Colors</dfn></dt>
             <dd>Comprising of the colors red, yellow, and blue (RYB), when these base colors
                 are combined, they create a much broader range of colors.</dd>
