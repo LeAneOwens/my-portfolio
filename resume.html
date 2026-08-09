@@ -3,6 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="sitewide.css" rel="stylesheet">
+    <style>
+        .name {
+            background-color:rgb(98, 44, 129);
+            font-size: xx-large;
+            padding: 0.9rem;
+            width: 20%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom:1.25rem;
+            margin-top: 0rem;
+            box-sizing: border-box;
+            text-align:center;
+            background-image: url(Projects/Border\ Flourish.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            outline: 2px solid black;
+            outline-offset: .2rem;
+            border: 2px solid black;
+            border-radius: .01rem;
+        }
+
+        .contact{
+            color:white; 
+            background-color:black; 
+            padding: .5rem 1rem; 
+            margin: 1rem 25rem;
+            margin-top: -.5rem;
+            border-radius: .5rem;
+            outline: 2px solid black;
+            outline-offset: .05rem;
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+        }
+
+        #subject {
+            text-align:center;
+        }
+
+        .divider {
+            height:3px;
+            background-color: blueviolet;
+            margin: .2rem 1rem;
+        }
+
+        .programs {
+            margin: auto;
+            min-width: 550px;
+            width: 90%;
+            columns: 7;
+            column-gap: 1rem;
+            margin: 0.2rem auto;
+        }
+
+        .indent {
+            text-indent: 1rem;
+        }
+
+        .duration {
+            display: grid;
+            grid-row: 1;
+            grid-column: 2;
+            grid-template-columns: 1fr 1fr;
+            margin-bottom: -1rem;
+        }
+
+        p {
+            padding: .1rem 2rem;
+        }
+
+        h4 {
+            padding-left: 2rem;
+        }
+    </style>
     <title>Resume</title>
 </head>
 <body>
@@ -12,87 +88,119 @@
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="resume.html">Resume</a></li>
-            <li><a href="projects.html">Projects</a>
+            <li class="categories"><a href="projects.html">Projects</a>
                 <ul>
                     <li><a href="animation.html">Animated Projects</a></li>
                     <li><a href="digitalart.html">Digital Art Portfolio</a></li>
                     <li><a href="brandingdesign.html">Branding Packages and Logos</a></li>
                     <li><a href="banner.html">Interactive Banner</a></li>
+                    <li><a href="drafting.html">Mechanical Design Projects</a></li>
                 </ul>
-            <li><a href="colortheoryoverview.html">Color Theory Overview</a></li>
+            <li class="categories"><a href="colortheoryoverview.html">Color Theory Overview</a>
                 <ul>
                     <li><a href="colortheoryarticle.html">Color Theory Article</a></li>
                     <li><a href="colorthemes.html">Color Themes</a></li>
                 </ul>
-            <li><a href="typographyoverview.html">Typography Overview</a></li>
+            <li class="categories"><a href="typographyoverview.html">Typography Overview</a>
                 <ul>
-                    <li><a href="fonttypessarticle.html">Font Types Article</a></li>
+                    <li><a href="fonttypesarticle.html">Font Types Article</a></li>
                     <li><a href="typographyarticle.html">Typography Article</a></li>
                 </ul>
         </ul>
     </nav>
 </header>
     <hr>
-    <h2>Patricia LeAne Owens</h2>
-    <h3>Address: Covington, TN 38019    Cell: (318)801-8514    Email: LeAne_Owens@yahoo.com</h3>
-    <h3>Summary of Qualifications</h3>
-    <br>
-    <p>Quick learner with a versatile skill set. I possess a natural talent for 
-        learning new programs. Adaptable, I can work as part of a team or on my own. 
-        Dedicated, hardworking, and skilled at creative problem solving. Capable of 
-        switching between multiple projects and multi-tasking. I can offer over five 
-        years of experience working on marine engine models in Solidworks and can 
-        easily utilize the program’s surfacing and sheet metal tools. Additionally, 
-        I placed 3rd in technical drafting in the Skills USA state competition in the 
-        year 2018 after just a few months of Solidworks experience. I also bring the
+    <h2 class="name">Patricia LeAne Owens</h2>
+    <div class="contact">
+     <h3>Address: Covington, TN 38019</h3> <h3>Cell: (318)801-8514</h3> <h3>Email: LeAne_Owens@yahoo.com</h3>
+    </div>
+   <section id="qualifications">
+     <h3 id="subject">Summary of Qualifications</h3>
+     <hr class="divider">
+     <p class="indent">Quick learner with a versatile skill set. I possess a natural talent for 
+         learning new programs. Adaptable, I can work as part of a team or on my own. 
+         Dedicated, hardworking, and skilled at creative problem solving. Capable of 
+         switching between multiple projects and multi-tasking. I can offer over five 
+         years of experience working on marine engine models in Solidworks and can 
+         easily utilize the program’s surfacing and sheet metal tools. Additionally, 
+         I placed 3rd in technical drafting in the Skills USA state competition in the 
+         year 2018 after just a few months of Solidworks experience. I also bring the
          skills of a full stack developer to the table with a talent for both artistic
           design work and coding.</p>
-    <br>
-    <h3>Technical Knowledge and Skills</h3>
-    <br>
-    <h5>Programs:</h5>
-    <p>AutoCAD      Solidworks      Solidworks Composer      Inventor      3DSMax      Sketchbook Pro      Revit     Fushion 360 Ultimate      Photoshop      Adobe Animate      Microsoft Excel      Microsoft Word      LightBurn      
-VCarve      Visual Studio Code </p>
-    <br>
-    <h5>Certifications:</h5> <p>CSWA, CSWP</p>
-    <br>
-    <h3>Education</h3>
-    <br>
-    <div><b>Computer Aided Design and Technology- Mechanical Design Diploma:</b></div>
-    <p>Tennessee College of Applied Technology Memphis              May 1, 2017-Oct. 5, 2018</p>
-    <div><b>Web Design Professional:</b></div>
-    <p>Tennessee College of Applied Technology Northwest             July, 22, 2025-July 22,2026</p>
-    <br>
-    <h3>Experience</h3>
-    <br>
-    <h5>Business Owner                                                                                       2023-Present</h5>
-    <p>Created and run my own sole proprietorship, RL Owens Craft. 
-    I make and engraved personalized gifts. I also provided a giftshop in Townsend, TN
-     with some of my jewlery.</p>
-    <br>
-    <h5>CAD Designer at Indmar -Millington, TN                                             Oct.5, 2018-Feb. 10, 2023</h5>
-    <p>Responsibilities remained the same as during internship with additional 
-    tasks of adding STL files to the 3D printer and helping new interns and engineers 
-    in need my assistance with Solidworks. I also devised the CAD test for new applicants 
-    to the engineering department. Other additional tasks included creating animations
-    from engines and their parts for presentations as well as high resolution screenshots 
-    using Photoview 360.
-    <br>Some of my responsibilities revolved around taking on the most complex parts 
-    and tasks. This included modeling the more intricate components, fixing assemblies
-     and part files, streamlining feature trees, repairing surfaces, and studying 
-     complex imported bodies or surfaces lacking feature trees in order to recreate 
-     them in such a way that other team members could more easily modify them.
-      Occasionally, I was required to fix mates within engine assemblies or create
-       complex sheet metal parts. While at  Indmar, I worked on a patent alongside
-        the engineers on my team. </p>
-    <br>
-    <h5>Engineering Intern at Indmar -Millington, TN                                     Nov. 27, 2017-Oct. 5 2018</h5>
-    <p>Co-op through TCAT Memphis. Tasks included modifying existing designs, designing
-    new parts, creating drawings for designs, and using Solidworks Composer to make 
-    presentations for the company. While never utilized, I used Solidworks Composer 
-    to create an intricate catalogue featuring multiple engines. It allowed for users 
-    to see part numbers, how the engine models were put together, and allowed for each 
-    subassembly to be isolated. Each engine model’s BOM could also be viewed from the 
-    catalogue and interacted with. </p>
+   </section>
+   <section id="skills">
+     <h3 id="subject">Technical Knowledge and Skills</h3>
+     <hr class="divider">
+     <h4>Programs:</h4>
+     <ul class="programs">
+        <li>AutoCAD</li> <li>Solidworks</li> <li>Solidworks Composer</li> <li>Inventor</li> <li>3DSMax</li>
+        <li>Sketchbook Pro</li> <li>Revit</li> <li>Fushion 360 Ultimate</li> <li>Photoshop</li>
+        <li>Adobe Animate</li> <li>Microsoft Excel</li> <li>LightBurn</li> <li>VCarve</li> <li>Visual Studio Code</li>
+     </ul>
+     <div style="display: flex; align-items: center;">
+       <h4>Certifications:</h4> <p style="margin-left: .5rem; padding:0rem;">CSWA, CSWP</p>
+     </div>
+    </section>
+    <section id="education">
+     <h3 id="subject">Education</h3>
+     <hr class="divider">
+     <div>
+         <h4>Computer Aided Design and Technology- Mechanical Design Diploma:</h4>
+         <span class="duration">
+             <p>Tennessee College of Applied Technology Memphis </p>             
+             <p style="font-style: italic">May 1, 2017-Oct. 5, 2018</p>
+         </span>
+     </div>
+     <div>
+         <h4>Web Design Professional:</h4>
+         <span class="duration">
+             <p>Tennessee College of Applied Technology Northwest</p>             
+             <p style="font-style: italic">July, 22, 2025-July 22,2026</p> 
+         </span>
+     </div>
+    </section>
+    <section id="experience">
+     <h3 id="subject">Experience</h3>
+     <hr class="divider">
+     <div>
+         <span class="duration"><h4>Business Owner</h4>   
+             <h4 style="font-style: italic">2023-Present</h4>
+         </span>
+         <p class="indent">Created and run my own sole proprietorship, RL Owens Craft. 
+             I make and engraved personalized gifts. I also provided a giftshop in Townsend, TN
+             with some of my jewlery.</p>
+     </div>
+     <div>
+         <span class="duration"><h4>CAD Designer at Indmar -Millington, TN</h4>   
+             <h4 style="font-style: italic">Oct.5, 2018-Feb. 10, 2023</h4>
+         </span>
+         <p class="indent">Responsibilities remained the same as during internship with additional 
+             tasks of adding STL files to the 3D printer and helping new interns and engineers 
+             in need of my assistance with Solidworks. I also devised the CAD test for new applicants 
+             to the engineering department. Other additional tasks included creating animations
+             from engines and their parts for presentations as well as high resolution screenshots 
+             using Photoview 360.</p>
+         <p class="indent">Some of my responsibilities revolved around taking on the most complex parts 
+             and tasks. This included modeling the more intricate components, fixing assemblies
+             and part files, streamlining feature trees, repairing surfaces, and studying 
+             complex imported bodies or surfaces lacking feature trees in order to recreate 
+             them in such a way that other team members could more easily modify them.
+             Occasionally, I was required to fix mates within engine assemblies or create
+             complex sheet metal parts. While at  Indmar, I worked on a patent alongside
+             the engineers on my team.</p> 
+     </div>
+     <div>
+         <span class="duration"><h4>Engineering Intern at Indmar -Millington, TN</h4>   
+             <h4 style="font-style: italic">Nov. 27, 2017-Oct. 5 2018</h4>
+         </span>
+         <p class="indent">Co-op through TCAT Memphis. Tasks included modifying existing designs, designing
+             new parts, creating drawings for designs, and using Solidworks Composer to make 
+             presentations for the company. While never utilized, I used Solidworks Composer 
+             to create an intricate catalogue featuring multiple engines. It allowed for users 
+             to see part numbers, how the engine models were put together, and allowed for each 
+             subassembly to be isolated. Each engine model’s BOM could also be viewed from the 
+             catalogue and interacted with.</p>
+     </div>
+   </section>
 </body>
 </html>
