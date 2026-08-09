@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="sitewide.css" rel="stylesheet">
+    <link href="showcase.css" rel="stylesheet">
     <title>Animated Projects</title>
 </head>
 <body>
@@ -12,21 +14,22 @@
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="resume.html">Resume</a></li>
-            <li><a href="projects.html">Projects</a>
+            <li class="categories"><a href="projects.html">Projects</a>
                 <ul>
                     <li><a href="animation.html">Animated Projects</a></li>
                     <li><a href="digitalart.html">Digital Art Portfolio</a></li>
                     <li><a href="brandingdesign.html">Branding Packages and Logos</a></li>
                     <li><a href="banner.html">Interactive Banner</a></li>
+                    <li><a href="drafting.html">Mechanical Design Projects</a></li>
                 </ul>
-            <li><a href="colortheoryoverview.html">Color Theory Overview</a></li>
+            <li class="categories"><a href="colortheoryoverview.html">Color Theory Overview</a>
                 <ul>
                     <li><a href="colortheoryarticle.html">Color Theory Article</a></li>
                     <li><a href="colorthemes.html">Color Themes</a></li>
                 </ul>
-            <li><a href="typographyoverview.html">Typography Overview</a></li>
+            <li class="categories"><a href="typographyoverview.html">Typography Overview</a>
                 <ul>
-                    <li><a href="fonttypessarticle.html">Font Types Article</a></li>
+                    <li><a href="fonttypesarticle.html">Font Types Article</a></li>
                     <li><a href="typographyarticle.html">Typography Article</a></li>
                 </ul>
         </ul>
@@ -34,20 +37,20 @@
 </header>
     <hr>
 <main>
-    <section id="nocturnal-whistling">
+   <section id="animation">
+    <div id="nocturnal-whistling">
      <h2>Nocturnal Whistling Infographic</h2>
      <video src="./Projects/Infographic_Nocturnal Whistling.mp4" 
      controls preload="auto" loop height="480" width="720"></video>
-     <p>This infographic came from both my husband's superstitious nature and my own
-        love for all things spooky.
+     <p class="description">This infographic came from both my husband's superstitious nature and my own
+         love for all things spooky.
      </p>
-    </section>
-    <hr>
-    <section id="cat-on-the-moon">
+    </div>
+    <div id="cat-on-the-moon">
      <h2>Cat on the Moon</h2>
      <video src="./Projects/Character Animation_Moon Cat.mp4" 
      controls preload="auto" loop height="480" width="720"></video>
-     <p>The inspiration of this animation a white cat I raised from an orphaned newborn
+     <p class="description">The inspiration of this animation a white cat I raised from an orphaned newborn
          kitten alongside his sisters. I caught him on the table one day just staring
          at a coffee cup when he was old enough to climb. I recognized the
          expression on his face that fortold mischief, but I couldn't react in time
@@ -55,7 +58,8 @@
          the intrigue of a scientist performing an experiment. He was the
          troublemaker of the litter. 
      </p>
-    </section>
+    </div>
+   </section>
 </main>
 </body>
 </html>
