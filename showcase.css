@@ -1,0 +1,120 @@
+/*Projects Homepage*/
+#projects {
+    background-image: url(Projects/Gothic\ Wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#projects-intro {
+    background-image: url(Projects/Border\ Teal.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    padding: 2.4rem;
+}
+
+/*Digital Art Section*/
+div {
+    box-sizing: border-box;
+    break-inside: avoid;
+    margin: 0 auto 1rem;
+    padding: 0;
+    place-items: center;
+}
+
+div img {
+    display: block;
+    width: auto;
+    transition: transform 0.5s;
+}
+
+div img:hover {
+    transform: scale(1.04);
+}
+
+#gallery {
+    background-image: url(Projects/Gothic\ Wallpaper\ Harlequin.jpg);
+    columns: 925px;
+    column-fill: balance;
+    column-gap: 0.5rem;
+    margin: 1rem auto;
+}
+
+p.description {  /*For all showcase pages.*/
+    border: 2px solid black;
+    background-color:blueviolet;
+    background-image: url(Projects/Corner\ Flourish.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-flow: wrap;
+    height: auto;
+    width: 500px;
+    margin: 1rem 0rem;
+    padding: 2.5rem 4rem;
+    box-sizing: border-box;
+}
+
+#gallery h2, #mechanical h2, #animation h2 {
+    background-image: url(Projects/Border\ Teal.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 2rem;
+}
+
+/*Animation section*/
+
+#animation{
+    background-image: url(Projects/Gothic\ Wallpaper\ Stripes.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 1rem solid black;
+    display: grid;
+    grid-column: 1;
+    grid-template-columns: 50% 50%;
+    grid-auto-rows: auto;
+    column-rule: 1rem solid black;
+    margin: 1rem auto;
+}
+
+/*Logo Section */
+
+#logos {
+    background-image: url(Projects/Gothic\ Wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#cat-rescue {
+    background-color:rgb(190, 190, 190, .3);
+    place-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+p.details {
+    border: 1px solid black;
+    background-color:blueviolet;
+    height: auto;
+    width: 800px;
+    margin: 1rem 0rem;
+    padding: 1rem 1rem;
+}
+
+/*Mechanical Design Section*/
+
+#mechanical {
+    background-image: url(Projects/Gothic\ Wallpaper\ Harlequin.jpg);
+    display: grid;
+    grid-column: 1;
+    grid-template-columns: 50% 50%;
+    grid-auto-rows: auto;
+}
+
+/*Banner*/
+
+#banner {
+    background-image: url(Projects/Gothic\ Wallpaper\ Harlequin.jpg);
+}

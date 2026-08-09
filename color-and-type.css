@@ -1,0 +1,114 @@
+/* Overview*/
+#color-theory-overview h2,
+#color-theory-definitions h2,
+#typography-overview h2,
+#typography-definitions h2,
+#front-types-article h2,
+#color-theory-article,
+#typography-article{
+    text-align: center;
+}
+
+#color-theory-overview,
+#color-theory-definitions,
+#typography-overview,
+#typography-definitions {
+    border: .5rem solid black;
+    background-color: aliceblue;
+}
+
+#color-theory-definitions dt,
+#typography-definitions dt {
+    font-weight: bolder; 
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+}
+
+.overview,
+ #color-theory-definitions dl,
+ #typography-definitions dl {
+    text-indent: 1rem;
+    padding: 0 2rem;
+}
+
+/*Article*/
+
+#color-theory-article img,
+#typography-article img {
+    max-width: auto;
+    max-height: 450px;
+}
+
+#color-theory-article,
+#typography-article,
+#front-types-article {
+    background-color: aliceblue;
+    border: .2rem solid black;
+    max-width:1000px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 2rem;
+}
+
+#color-theory-article p,
+#typography-article p,
+#front-types-article p {
+    text-indent: 1rem;
+    text-align: left;
+}
+
+.red {
+    color:red;
+}
+
+.green {
+    color: green;
+}
+
+.blue {
+    color: blue;
+}
+
+.cyan {
+    color: cyan;
+}
+
+.magenta {
+    color: magenta;
+}
+
+/*Color Themes*/
+
+#color-themes-table {
+    background-image:  url(Projects/Gothic\ Wallpaper\ Harlequin.jpg);
+    place-items: center;
+}
+
+#color-themes-table table {
+    table-layout: auto;
+    border-collapse: collapse;
+}
+
+caption {
+    background-color: teal;
+    border: .3rem solid black;
+    border-radius: .5rem;
+    width:10%;
+    margin: .5rem auto .5rem auto;
+    font-weight: bolder;
+    font-size: larger;
+    padding: .5rem 1rem;
+}
+
+table, th, td {
+    border: solid black;
+    text-align: center;
+    padding: 1rem .5rem;
+}
+
+thead {
+    background-color: teal;
+}
+tbody {
+    background-color: rgb(197, 213, 228, .5);
+}

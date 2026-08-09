@@ -1,0 +1,67 @@
+header {
+    background:blueviolet;
+    background-image: url(Projects/Corner\ Flourish.png);
+    background-repeat: no-repeat;
+    background-size: 5%;
+}
+
+h1 {
+    font-family: 'Old English Text MT', blackletter;
+    font-size: 3rem;
+    margin: 0rem 3rem;
+}
+
+nav {
+    background-color:black;
+    color:mediumpurple;
+    padding: .5rem;
+    margin: .5rem 0rem;
+}
+
+nav::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+nav li:hover {
+    background-color:steelblue;
+}
+
+nav a:link {
+    color: mediumpurple;
+}
+
+nav a:visited {
+    color: rgb(88, 73, 117);
+}
+
+.categories ul {
+    display: none;
+}
+
+.categories:hover ul {
+    background-color: black;
+    display: block;
+    position: absolute;
+}
+
+.categories li {
+    float: none;
+}
