@@ -133,6 +133,7 @@ p.details {
         display: flex;
         flex-flow: wrap;
         background-repeat: repeat;
+        background-size: 100% auto;
         break-inside: avoid;
         align-content: center;
     }
