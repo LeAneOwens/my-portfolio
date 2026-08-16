@@ -88,3 +88,9 @@ button {
 .font-size li {
     float: none;
 }
+
+@media (max-width: 800px) {
+    header {
+        object-fit: contain;
+    }
+}
