@@ -9,7 +9,7 @@
             background-color:rgb(98, 44, 129);
             font-size: xx-large;
             padding: 0.9rem;
-            width: 20%;
+            width: 12em;
             margin-left: auto;
             margin-right: auto;
             margin-bottom:1.25rem;
@@ -95,17 +95,32 @@
                     <li><a href="brandingdesign.html">Branding Packages and Logos</a></li>
                     <li><a href="banner.html">Interactive Banner</a></li>
                     <li><a href="drafting.html">Mechanical Design Projects</a></li>
-                </ul>
+                </ul></li>
             <li class="categories"><a href="colortheoryoverview.html">Color Theory Overview</a>
                 <ul>
                     <li><a href="colortheoryarticle.html">Color Theory Article</a></li>
                     <li><a href="colorthemes.html">Color Themes</a></li>
-                </ul>
+                </ul></li>
             <li class="categories"><a href="typographyoverview.html">Typography Overview</a>
                 <ul>
                     <li><a href="fonttypesarticle.html">Font Types Article</a></li>
                     <li><a href="typographyarticle.html">Typography Article</a></li>
-                </ul>
+                </ul></li>
+            <li class="theme">Theme
+                <ul>
+                    <li class="mode">Mode
+                        <ul>
+                            <li><button id="dark-mode" onclick="document.body.style.color = 'white';">Dark</button></li>
+                            <li><button id="light-mode" onclick="document.body.style.color = '';">Light</li>
+                            <li><button id="reset-mode" onclick="document.body.style.color = '';">Reset</li>
+                        </ul></li>
+                    <li class="font-size">Font Size
+                        <ul>
+                            <li><button id="small">Small</button></li>
+                            <li><button id="medium">Medium</li>
+                            <li><button id="large">Large</li>
+                        </ul></li>
+                </ul></li>
         </ul>
     </nav>
 </header>
@@ -114,6 +129,9 @@
     <div class="contact">
      <h3>Address: Covington, TN 38019</h3> <h3>Cell: (318)801-8514</h3> <h3>Email: LeAne_Owens@yahoo.com</h3>
     </div>
+    <button style="display:flex; float:inline-start;" 
+     onclick="document.getElementById('qualifications').style.display = document.getElementById('qualifications').style.display === 'none' ? 'block' : 'none'">
+     Hide/Show: Summary of Qualifications</button>
    <section id="qualifications">
      <h3 id="subject">Summary of Qualifications</h3>
      <hr class="divider">
@@ -128,6 +146,9 @@
          skills of a full stack developer to the table with a talent for both artistic
           design work and coding.</p>
    </section>
+   <button style="display:flex; float:inline-start;" 
+     onclick="document.getElementById('skills').style.display = document.getElementById('skills').style.display === 'none' ? 'block' : 'none'">
+     Hide/Show: Technical Knowledge and SKills</button>
    <section id="skills">
      <h3 id="subject">Technical Knowledge and Skills</h3>
      <hr class="divider">
@@ -138,9 +159,12 @@
         <li>Adobe Animate</li> <li>Microsoft Excel</li> <li>LightBurn</li> <li>VCarve</li> <li>Visual Studio Code</li>
      </ul>
      <div style="display: flex; align-items: center;">
-       <h4>Certifications:</h4> <p style="margin-left: .5rem; padding:0rem;">CSWA, CSWP</p>
+       <h4>Certifications:</h4> <p style="display:flex; float:inline-start; position: relative; margin-left: -1.5em;">CSWA, CSWP</p>
      </div>
     </section>
+    <button style="display:flex; float:inline-start;" 
+     onclick="document.getElementById('education').style.display = document.getElementById('education').style.display === 'none' ? 'block' : 'none'">
+     Hide/Show: Education</button>
     <section id="education">
      <h3 id="subject">Education</h3>
      <hr class="divider">
@@ -159,6 +183,9 @@
          </span>
      </div>
     </section>
+    <button style="display:flex; float:inline-start;" 
+     onclick="document.getElementById('experience').style.display = document.getElementById('experience').style.display === 'none' ? 'block' : 'none'">
+     Hide/Show: Experience</button>
     <section id="experience">
      <h3 id="subject">Experience</h3>
      <hr class="divider">
@@ -202,5 +229,6 @@
              catalogue and interacted with.</p>
      </div>
    </section>
+  <script src="script.js"></script> 
 </body>
 </html>
