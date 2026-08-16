@@ -98,7 +98,7 @@ p.description {  /*For all showcase pages.*/
     justify-content: center;
 }
 
-#cat-rescue img {
+#cat-rescue img, #mechanical img {
     max-width: 100%;
     height: auto;
 }
@@ -124,6 +124,11 @@ p.details {
 
 /*Mobile Devices*/
 @media (max-width: 800px) {
+    div {
+        place-items: center;
+        align-items: center;
+    }
+
     #animation {
         display: flex;
         flex-flow: wrap;
@@ -139,11 +144,11 @@ p.details {
     }
 
     #logos, #projects{
-        object-fit: cover;
+        background-size: cover;
     }
 
     p.details {
         height: auto;
-        width: 700px;
+        width: 100%;
     }
 }
