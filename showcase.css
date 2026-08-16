@@ -11,7 +11,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     text-align: center;
-    padding: 2.4rem;
+    padding: 2.4em;
 }
 
 /*Digital Art Section*/
@@ -33,8 +33,12 @@ div img:hover {
     transform: scale(1.04);
 }
 
-#gallery {
+
+#digital-art, #banner, #drafting {
     background-image: url(Projects/Gothic\ Wallpaper\ Harlequin.jpg);
+}
+
+#gallery {
     columns: 925px;
     column-fill: balance;
     column-gap: 0.5rem;
@@ -51,8 +55,8 @@ p.description {  /*For all showcase pages.*/
     flex-flow: wrap;
     height: auto;
     width: 500px;
-    margin: 1rem 0rem;
-    padding: 2.5rem 4rem;
+    margin: 1rem 0em;
+    padding: 2.75em 4em;
     box-sizing: border-box;
 }
 
@@ -61,7 +65,7 @@ p.description {  /*For all showcase pages.*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    padding: 2rem;
+    padding: 2em;
 }
 
 /*Animation section*/
@@ -94,6 +98,11 @@ p.description {  /*For all showcase pages.*/
     justify-content: center;
 }
 
+#cat-rescue img {
+    max-width: 100%;
+    height: auto;
+}
+
 p.details {
     border: 1px solid black;
     background-color:blueviolet;
@@ -106,15 +115,35 @@ p.details {
 /*Mechanical Design Section*/
 
 #mechanical {
-    background-image: url(Projects/Gothic\ Wallpaper\ Harlequin.jpg);
     display: grid;
+    flex-direction: column; 
     grid-column: 1;
     grid-template-columns: 50% 50%;
-    grid-auto-rows: auto;
+    grid-auto-rows: auto; 
 }
 
-/*Banner*/
+/*Mobile Devices*/
+@media (max-width: 800px) {
+    #animation {
+        display: flex;
+        flex-flow: wrap;
+        background-repeat: repeat;
+        break-inside: avoid;
+        align-content: center;
+    }
 
-#banner {
-    background-image: url(Projects/Gothic\ Wallpaper\ Harlequin.jpg);
+    #mechanical {
+        display: flex;
+        flex-flow: wrap; 
+        break-inside: avoid;
+    }
+
+    #logos, #projects{
+        object-fit: cover;
+    }
+
+    p.details {
+        height: auto;
+        width: 700px;
+    }
 }
