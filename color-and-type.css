@@ -89,6 +89,11 @@
     border-collapse: collapse;
 }
 
+#color-themes-table img {
+    max-width: 100%;
+    height: auto;
+}
+
 caption {
     background-color: teal;
     border: .3rem solid black;
