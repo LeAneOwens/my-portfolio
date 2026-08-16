@@ -65,3 +65,26 @@ nav a:visited {
 .categories li {
     float: none;
 }
+
+button {
+    background-color: teal;
+}
+
+.theme ul {
+    display: none;
+}
+
+.theme:hover ul,
+.mode:hover ul,
+.font-size:hover ul {
+    background-color: black;
+    display: flex;
+    position: relative;
+    padding-right: 1rem;
+}
+
+.theme li,
+.mode li
+.font-size li {
+    float: none;
+}
