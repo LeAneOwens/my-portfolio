@@ -91,6 +91,7 @@ button {
 
 @media (max-width: 800px) {
     header {
-        object-fit: contain;
+        max-width: 100%;
+        height: auto;
     }
 }
